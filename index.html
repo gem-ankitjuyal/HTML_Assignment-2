@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student registration from</h2>
+    <form>
+        
+        <label>Name : </label>
+        <input type="text" placeholder="Name" required><br><br>
+
+        <label>Phone number : </label>
+        <input type="tel" placeholder="Phone Number" required><br><br>
+
+        <label>Date of Birth : </label>
+        <input type="date" placeholder="Date of Birth" required><br><br>
+
+        <label>Address: <textarea name="address" cols="30" rows="10"></textarea></div><br><br></label>
+
+        
+
+        <label>Gender : </label>
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label><br><br>
+
+        <label>City : </label>
+        <select>
+            <option value="Select City">Select City</option>
+            <option value="Spain">Spain</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="India">Spain</option>
+            <option value="Norway">Norway</option>
+        </select><br><br>
+        <label>Hobbies : </label><br><br>
+        <input type="checkbox" value="Playing games">
+        <label> Playing games</label><br>
+        <input type="checkbox"value="Painting">
+        <label>Painting</label><br>
+        <input type="checkbox" value="Reading books">
+        <label>Reading books</label><br> 
+        <input type="checkbox" value="Sketching">
+        <label>Sketching</label><br><br>
+        <input type="submit" value="Submit" name="submit">
+        <input type="reset" value="Reset" name="reset">
+    </form>
+    <table style="width: 100%;">
+        <h2>Student records</h2>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Phone no</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">Ankit</td>
+            <td rowspan="3">1234567890</td>
+            <td rowspan="3">Male</td>
+            <td rowspan="3">Delhi</td>
+            <td>Playing games</td><br>    
+        </tr>
+        <tr>
+            <td>Reading books</td>
+            
+        </tr>
+        <tr>
+            <td>Love trekking</td>
+        </tr>
+        <tr>
+            <td rowspan="3">2</td>
+            <td rowspan="3">Shubham</td>
+            <td rowspan="3">1234567980</td>
+            <td rowspan="3">Male</td>
+            <td rowspan="3">Chandigarh</td>
+            <td>Painting</td><br>    
+        </tr>
+        <tr>
+            <td>Playing chess</td>
+            
+        </tr>
+        <tr>
+            <td>Playing computer games</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            <td rowspan="3">Jasmine</td>
+            <td rowspan="3">0987654321</td>
+            <td rowspan="3">Female</td>
+            <td rowspan="3">Mumbai</td>
+            <td>Cooking food</td><br>    
+        </tr>
+        <tr>
+            <td>Reading books</td>
+            
+        </tr>
+        <tr>
+            <td>Love travelling</td>
+        </tr>
+        
+        
+        
+        
+    </table>
+</body>
+</html>
